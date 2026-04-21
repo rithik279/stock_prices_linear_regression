@@ -1,0 +1,31 @@
+# Ticker configuration for stock price prediction
+tickers:
+  primary: AAPL
+  market_indices:
+    - QQQ
+    - ^GSPC
+  additional:
+    - AMZN
+    - MSFT
+
+# Feature columns to use (from available engineered features)
+features:
+  lagged_prices:
+    - AAPL(t-1)
+    - ^GSPC(t-1)
+  # Uncomment to include all features (use with regularized models)
+  # all_lagged:
+  #   - AAPL(t-1)
+  #   - AMZN(t-1)
+  #   - MSFT(t-1)
+  #   - QQQ(t-1)
+  #   - ^GSPC(t-1)
+  # moving_averages:
+  #   - AAPL_MA_5
+  #   - AMZN_MA_5
+  #   - MSFT_MA_5
+  #   - QQQ_MA_5
+  #   - ^GSPC_MA_5
+
+# Target variable
+target: Target

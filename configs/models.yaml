@@ -1,0 +1,27 @@
+# Model configurations
+models:
+  ols:
+    enabled: true
+    features: lagged_prices  # Use lagged_prices for OLS (avoid multicollinearity)
+
+  ridge:
+    enabled: true
+    features: all_lagged
+    alpha: 0.1
+
+  lasso:
+    enabled: true
+    features: all_lagged
+    alpha: 0.1
+
+  elastic_net:
+    enabled: true
+    features: all_lagged
+    alpha: 1.0
+    l1_ratio: 0.5
+
+# Test split ratio (for sklearn models)
+test_size: 0.044
+
+# Random seed for reproducibility
+random_state: 42

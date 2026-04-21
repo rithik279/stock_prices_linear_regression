@@ -1,0 +1,17 @@
+# General project settings
+project:
+  name: "Stock Price Linear Regression"
+  version: "1.0.0"
+
+# Visualization settings
+plotting:
+  figure_size: [14, 6]
+  style: "seaborn-v0_8-darkgrid"
+  save_format: "png"
+  dpi: 150
+
+# Output directories
+output:
+  figures: "output/figures"
+  models: "output/models"
+  reports: "output/reports"

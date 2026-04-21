@@ -1,0 +1,13 @@
+# Date ranges for training and testing
+training:
+  start: "2020-01-01"
+  end: "2024-12-31"
+
+testing:
+  start: "2025-01-01"
+  end: "2025-07-29"
+
+# Validation split (if needed)
+validation:
+  start: "2024-01-01"
+  end: "2024-12-31"
