@@ -2,6 +2,10 @@
 
 Predicting AAPL next-day closing price using OLS, Ridge, Lasso, and Elastic Net regression with statistical diagnostics.
 
+## Historical Project / Research Progression
+
+This is an early quantitative-finance and statistical-modelling project. It demonstrates OLS, Ridge, Lasso, and Elastic Net alongside multicollinearity and residual diagnostics including VIF, Durbin–Watson, Q–Q analysis, and residual-versus-fitted checks. Later work evolved toward time-series-aware validation, stronger baselines, and systematic equity research at the portfolio level.
+
 ## Quick Start
 
 ### Option 1: Run Immediately (Windows)
